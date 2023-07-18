@@ -2845,29 +2845,36 @@ input, select, textarea {
 	.single-project {
 		overflow: hidden;
 			}
-	.project-image {
+	/* .project-image {
 		float: left;
 		width: 400px;
 	}
 	.project-details {
 		float: right;
 		width: calc (100%-400px);
-	}
-	.project-details h2 {
-		text-align: left;
+	} */
+	.project-details h1 {
+		text-align: center;
 		font-weight: bold;
 		font-size:25px;
 	}
 	.tech-menu {
 		overflow: hidden;
 		list-style: none;
+	
 	}
 	.tech-menu li {
 		width: 64px;
 		height: 64px;
 		background-size: contain;
-		float: left;
+		/* float: left; */
 		font-size: 0%;
+
+	}
+	.tech-menu ul {
+		overflow: hidden;
+		list-style: none;
+		flex-direction: row;
 	}
 	.html5 {
 		background: url(../../images/html-icon.png) 0 0 no-repeat;
@@ -2908,3 +2915,6 @@ input, select, textarea {
 	.github {
 		background: url(../../images/Github-icon.png) 0 0 no-repeat;
 	}	
+	.toolbelt {
+
+	}
