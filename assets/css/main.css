@@ -2868,7 +2868,7 @@ input, select, textarea {
 	.tech-menu {
 		overflow: hidden;
 		list-style: none;
-		padding-left: 600px;
+		/* padding-left: 600px; */
 		}
 
 	.tech-menu li {
