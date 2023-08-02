@@ -109,6 +109,8 @@ input, select, textarea {
 		font-weight: 300;
 		color: #666;
 		line-height: 1.5em;
+		padding-left: 35px;
+		padding-right: 35px;
 	}
 
 	h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
@@ -123,6 +125,7 @@ input, select, textarea {
 	h2 {
 		font-size: 2em;
 		letter-spacing: -1px;
+		
 	}
 
 		h2.alt {
@@ -2841,6 +2844,7 @@ input, select, textarea {
 	}
 	.project-container {
 		width: 100%;
+	
 	}
 	.single-project {
 		overflow: hidden;
@@ -2853,6 +2857,7 @@ input, select, textarea {
 		float: right;
 		width: calc (100%-400px);
 	} */
+	
 	.project-details h1 {
 		text-align: center;
 		/* font-weight: bold; */
@@ -2865,11 +2870,12 @@ input, select, textarea {
 		padding-left: 300px;
 	}
 
-	.tech-menu {
+	.tech-menu  {
 		overflow: hidden;
 		list-style: none;
-		/* padding-left: 600px; */
+		padding-left: 550px;
 		}
+
 
 	.tech-menu li {
 		width: 64px;
@@ -2884,7 +2890,9 @@ input, select, textarea {
 		overflow: hidden;
 		list-style: none;
 		flex-direction: row;
+		padding-left: 600px;
 	}
+		
 	.html5 {
 		background: url(../../images/html5.png) 0 0 no-repeat;
 	}
@@ -2923,6 +2931,7 @@ input, select, textarea {
 	}	
 	.project-container {
 		font-weight: bold;
+		
 	}
 	.contact-info h1{
 		text-align: center;
