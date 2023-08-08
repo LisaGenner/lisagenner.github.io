@@ -154,7 +154,7 @@ input, select, textarea {
 
 	strong, b {
 		font-weight: 300;
-		color: #666;
+		color: black;
 	}
 
 	em, i {
@@ -2851,12 +2851,23 @@ input, select, textarea {
 	background-color:#888
 }
 
+.background {
+	background-color: #b4b9b9;
+}
+
 .welcome {
 	color: whitesmoke
 }
 
 .title {
 	color: whitesmoke
+}
+
+.contact-info {
+	color: black;
+	font-weight: 50px;
+
+	
 }
 
 	/* .single-project {
@@ -2912,6 +2923,7 @@ input, select, textarea {
 		/* flex-direction: row;
 		padding-left: 600px; */
 	}
+
 	.tech-stack li {
 		width: 64px;
 		height: 64px;
@@ -2929,10 +2941,10 @@ input, select, textarea {
 		background-size: contain;
 		float: left;
 		font-size: 0%;
-		width: 970px;
-		padding-left: 166px;
+		width: 1070px;
+		padding-left: 223px;
 		padding-top: 30px;
-		padding-bottom: 50px;
+		padding-bottom: 60px;
 	}
 
 	.back-end-menu {
@@ -2942,16 +2954,20 @@ input, select, textarea {
 		float: left;
 		font-size: 0%;
 		width: 970px;
-		padding-left: 220px;
+		padding-left: 270px;
 		padding-top: 50px;
+		padding-bottom: 20px;
 	}
 
 	.sub-title front {
 		padding-top: 70px;
+		color: black
 	}
 
 	.sub-title {
 		padding-top: 70px;
+		color:black
+	
 	
 	}
 
@@ -3062,6 +3078,7 @@ input, select, textarea {
 	.contact-info h2 {
 		font-weight: bold;
 	}
+	
 	.icons ul{
 		text-size-adjust: 50px;
 	
