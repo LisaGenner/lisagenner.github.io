@@ -23,7 +23,8 @@
 				<ul>
 					<li><a href="#top" id="top-link"><span class="icon solid fa-home">Intro</span></a></li>
 					<li><a href="#about" id="about-link"><span class="icon solid fa-user">About Me</span></a></li>
-					<li><a href="#portfolio" id="portfolio-link"><span class="icon solid fa-th">Projects</span></a></li>
+					<li><a href="#tech-stack" id="portfolio-link"><span class="icon solid fa-th">My Tech Stack</span></a></li>
+					<li><a href="#portfolio" id="skillset"><span class="icon solid fa-th">Projects</span></a></li>
 					<li><a href="#contact" id="contact-link"><span class="icon solid fa-envelope">Contact</span></a>
 					</li>
 				</ul>
@@ -35,17 +36,17 @@
 	<div id="main">
 
 		<!-- Intro -->
-		<section id="top" class="one dark cover">
+		<section id="top" class="home-bg">
 			<div class="container">
 
 				<header>
-					<h2 class="alt">WELCOME!</h2>
+					<h2 class="welcome">WELCOME!</h2>
 						<br>
 						
-						<h3>I'm <strong>LISA GENNER</strong>, a Web Developer based out of Milwaukee, Wisconsin.</h3>
+						<h3 class="title">I'm <strong>LISA GENNER</strong>, a Web Developer based out of Milwaukee, Wisconsin.</h3>
 						<br>
 
-					<h3>A Full Stack Web Developer looking to build fantastic sites that leads to the success of the
+					<h3 class="title">A Full Stack Web Developer looking to build fantastic sites that leads to the success of the
 						overall product.<br />
 					</h3>
 				</header>
@@ -87,32 +88,46 @@
 
 			</div>
 		<br>
+		</section>
 			<!-- Skills -->
-		<section id="Toolbelt" class="three">
+	<section id="tech-stack" class="three">
 	<!-- <div class="container"> -->
 		<!-- <h1 class="slide-in l show">My Tech Stack</h1> -->
 				<header>
 					<h2>My Tech Stack</h2>
 				</header>
-	<p>My goal is to leverage my skills in web development to create visually appealing and user-friendly websites and applications, while staying abreast of emerging technologies and collaborating with dynamic teams to deliver innovative digital solutions.
-	</p>
-	
-
-		<!-- <ul>
+	<h1>My goal is to leverage my skills in web development to create visually appealing and user-friendly websites and applications, while staying abreast of emerging technologies and collaborating with dynamic teams to deliver innovative digital solutions.
+	</h1>
+<h3 class="sub-title">Front End Technogies</h3>	
+<div class="tech-stack">
+		<ul class="front-end-menu">
 		<li class="html5">HTML5</li>
 		<li class="css">CSS</li>
 		<li class="javascript">JavaScript</li>
 		<li class="jquery">JQuery</li>
-		<li class="aws">AWS</li>
-		<li class="react">React</li>
-		<li class="typescript">TypeScript</li>
-		<li class="firebase">firebase</li>
 		<li class="angular">Angular</li>
 		<li class="bootstrap">BootStrap</li>
+		<li class="react">React</li>
+		<li class="typescript">TypeScript</li>
+	</ul>
+</div>
+<br>
+<div>
+<h3 class="sub-title">Back End Technogies</h3>	
+<div class="tech-stack">
+	<ul class= "back-end-menu">
+		<li class="firebase">firebase</li>
+		<li class="aws">AWS</li>
+		<li class="nodejs">NodeJS</li>
+		<li class="mySQL">mysql</li>
+		<li class="redux">redux</li>
 		<li class="mongodb">MongoDB</li>
 		<li class="gitlab">Gitlab</li>
-		</ul> -->
-		<div class="tools-slide-track">
+		</ul>
+	</div>		
+</div>
+		<!-- <div class="tools-slide-track"> -->
+		<!-- <div class="tech-stack li">
 		<img src="images/html5.png" alt="html">
 		<img src="images/css3.png" alt="css">
 		<img src="images/javascript.png" alt="javascript">
@@ -129,10 +144,10 @@
 		<img src="images/mysql.png" alt="mySQL">
 		<img src="images/redux.png" alt="redux">
 		<img src="images/gitlab.png" alt="github logo">
-	</div>
+	</div> -->
 
 	<!-- </div> -->
-	</section>
+</section>
 
 		<!-- Portfolio -->
 	<section id="portfolio">
@@ -158,13 +173,17 @@
 			<div class="project-details">
 				<h4>This app was built for mobile devices using React Native. It provides users with a chat interface, options to share images and their location. I used Expo to develop the app. It is optimized for both Android and iOS devices. The chat interface and functionallity uses the Gifted Chat library. To store the chat messages, I used the Google Firestore Database. Images are stored in Firebase Cloud Storage. To make the chat conversations available offline , I used asyncStorage to store them locally. I used Google Firebase authentication to authenticate users anonymously.</h4>
 				<br>
-				<ul class="tech-menu a ">
+				<div class="tech-menu">
+				<ul class="chat-app-menu">
 					<li class="react">React</li>
 					<li class="firebase">Firebase</li>
 					<li class="javascript">JavaScript</li>
 				</ul>
-				<a href="https://github.com/LisaGenner/Chat-App" class="button">Code</a>
-				<a href="images/5.4 Video.mp4" class="button">Demo</a>
+			</div>
+			<br>
+				<a target="_blank" href="https://github.com/LisaGenner/Chat-App" class="button">Code</a>
+				<a target="_blank" href="images/5.4 Video.mp4" class="button">Demo</a>
+			
 			</div>
 		</div>
 
@@ -183,15 +202,16 @@
 		<div class="project-details">
 			<h4>myFlix is a client-side application built with react.js, react-bootstrap for styling, and using parcel as a bundler. The focus is building an application that communicates with a server-side REST Api to display movies from a database and register users. This web app provides users with access to information about movies, directors, and genres. Users can sign up, update personal data, and create a list of favorites. Server-side and client-side were developed using the MERN stack</h4>
 			<br>
-			
-			<ul class="tech-menu ">
+			<div class="tech-menu">
+			<ul class="myflix-app-menu">
 				<li class="html5">HTML5</li>
 				<li class="css">CSS</li>
 				<li class="javascript">JavaScript</li>
 				<li class="react">React</li>
 				<li class="bootstrap">Bootstrap</li>
 			</ul>
-	
+			</div>
+			<br>
 			<a href="https://github.com/LisaGenner/myFlix-client" class="button">Code</a>
 			<!-- <a href="https://myflix-20778.netlify.app/" class="button">Demo</a> -->
 		</div>
@@ -212,11 +232,14 @@
 					<h1>This is a small web application with HTML, CSS, and JavaScript that loads
 						data from an external API and enables the viewing of data points in detail.</h1>
 						<br>
-					<ul class="tech-menu c">
+						<div class="tech-menu">
+					<ul class="pokedex-app-menu">
 						<li class="html5">HTML5</li>
 						<li class="css">CSS</li>
 						<li class="javascript">JavaScript</li>
 					</ul>
+				</div>
+				<br>
 					<a href="https://github.com/LisaGenner/Pokedex-app" class="button">Code</a>
 				</div>
 	</div>

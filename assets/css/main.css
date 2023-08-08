@@ -2846,9 +2846,22 @@ input, select, textarea {
 		width: 100%;
 	
 	}
-	.single-project {
-		overflow: hidden;
-			}
+
+.home-bg {
+	background-color:#888
+}
+
+.welcome {
+	color: whitesmoke
+}
+
+.title {
+	color: whitesmoke
+}
+
+	/* .single-project {
+		
+			} */
 	/* .project-image {
 		float: left;
 		width: 400px;
@@ -2870,12 +2883,18 @@ input, select, textarea {
 		padding-left: 300px;
 	}
 
-	.tech-menu  {
+	.tech-menu ul {
 		overflow: hidden;
 		list-style: none;
-		padding-left: 550px;
-		}
+		margin: 10px auto;
+		/* flex-direction: row;
+		padding-left: 600px; */
+	}
 
+
+	.tech-menu  {
+		width: 100%;
+		}
 
 	.tech-menu li {
 		width: 64px;
@@ -2889,10 +2908,90 @@ input, select, textarea {
 	.tech-menu ul {
 		overflow: hidden;
 		list-style: none;
-		flex-direction: row;
-		padding-left: 600px;
+		margin: 10px auto;
+		/* flex-direction: row;
+		padding-left: 600px; */
 	}
+	.tech-stack li {
+		width: 64px;
+		height: 64px;
+		background-size: contain;
+		float: left;
+		justify-content: center;
+		font-size: 0%;
+		width: 100px;	
+		padding-top: 50px;
+	}
+
+	.front-end-menu {
+		width: 64px;
+		height: 64px;
+		background-size: contain;
+		float: left;
+		font-size: 0%;
+		width: 970px;
+		padding-left: 166px;
+		padding-top: 30px;
+		padding-bottom: 50px;
+	}
+
+	.back-end-menu {
+		width: 64px;
+		height: 64px;
+		background-size: contain;
+		float: left;
+		font-size: 0%;
+		width: 970px;
+		padding-left: 220px;
+		padding-top: 50px;
+	}
+
+	.sub-title front {
+		padding-top: 70px;
+	}
+
+	.sub-title {
+		padding-top: 70px;
+	
+	}
+
+	/* .back-end-menu li {
+		width: 64px;
+		height: 64px;
+		background-size: contain;
+		float: left;
+		justify-content: center;
+		font-size: 0%;
+		width: 100px;	
+		padding-top: 50px;
+	} */
+
+	/* ul.skill-set li span {
+		display: block;
+		font-family: 'Fira Sans', sans-serif;
+		font-size: 12px;
+		font-weight: 400;
+		line-height: 20px;
+		padding-top: 120px;
+		text-align: center;
+		width: 100%; */
 		
+.chat-app-menu {
+	width: 270px;
+}
+
+.myflix-app-menu {
+	width: 433px;
+}
+
+.pokedex-app-menu {
+	width: 270px;
+	}
+
+
+.sub-title h4 {
+	font-weight: bold;
+}
 	.html5 {
 		background: url(../../images/html5.png) 0 0 no-repeat;
 	}
@@ -2926,9 +3025,33 @@ input, select, textarea {
 	.bootstrap {
 		background: url(../../images/bootstrap.png) 0 0 no-repeat;
 	}
-	.github {
+	.gitlab {
 		background: url(../../images/gitlab.png) 0 0 no-repeat;
 	}	
+	.typescript {
+		background: url(../../images/typescript.png) 0 0 no-repeat;
+	}
+
+	.firebase {
+		background: url(../../images/firebase.png) 0 0 no-repeat;
+	}
+
+	.nodejs {
+		background: url(../../images/nodejs.png) 0 0 no-repeat;
+	}
+
+	.mySQL {
+		background: url(../../images/mysql.png) 0 0 no-repeat;
+	}
+
+	.redux {
+		background: url(../../images/redux.png) 0 0 no-repeat;
+	}
+
+	.mongodb {
+		background: url(../../images/mongodb.png) 0 0 no-repeat;
+	}
+
 	.project-container {
 		font-weight: bold;
 		
