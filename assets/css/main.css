@@ -395,10 +395,10 @@ input, select, textarea {
   #skillset h3 {
 	margin-bottom: 0;
   }
-  #skillset ul {
+  /* #skillset ul {
 	list-style-type: none;
-	padding: 0;
-  }
+	padding: 0; */
+  /* } */
 	/* slide-in is an element that slides in/out from the l/r side as the user scrolls up/down the page */
 .slide-in {
 	opacity: 0;
@@ -2794,6 +2794,11 @@ input, select, textarea {
 .welcome {
 	color: whitesmoke;
 	margin-bottom: 50px;
+	margin-top: 50px;
+}
+
+#top {
+	height: 100vh;
 }
 
 .title {
@@ -2809,28 +2814,44 @@ input, select, textarea {
 		width: 500px; 
 		height: 200px;
 	}
-
-			
+		
 .about-me-text {
 	font-weight: 300;
 	color: #666;
 	line-height: 1.5em;
+}
 
+/* .web-dev-text {
+	font-weight: 300;
+	color: #666;
+	line-height: 1.5em;
+	padding-bottom: 50px;
+} */
+	
+/* #about {
+	height: 100vh;
+} */
 
-}		
-
-#about h2 {
-	margin-bottom: 20px;
-	}	
+/* #about h2 {
+	margin-bottom: 10px;
+	}	 */
 
 
 	
 
 /* ---------- TECH STACK SECTION ---------- */		
 
+#tech-stack {
+	height: 100vh;
+}
+
+.text-stack {
+	text-align: center;
+}
+
 .techstack-text {
 color: black;
-padding: 0 7em;
+padding: 0 3em;
 margin-bottom: 0;
 }
 
@@ -2846,27 +2867,32 @@ margin-bottom: 0;
 }
 
 .front-end-menu {
-	width: 64px;
+	/* width: 64px; */
+	display: inline-block;
 	height: 64px;
-	background-size: contain;
-	float: left;
-	font-size: 0%;
-	width: 1170px;
-	padding-left: 320px;
+	/* background-size: contain; */
+	/* float: left; */
+	/* font-size: 0%; */
+	/* width: 1170px; */
+	/* padding-left: 320px; */
 	padding-top: 30px;
-	padding-bottom: 70px;
+	padding-bottom: 10px;
 }
 
 .back-end-menu {
-	width: 64px;
+	/* width: 64px; */
+	display: inline-block;
 	height: 64px;
-	background-size: contain;
-	float: left;
-	font-size: 0%;
-	width: 11200px;
-	padding-left: 420px;
+	/* background-size: contain;
+	float: left; */
+	/* font-size: 0%; */
+	/* width: 11200px; */
+	/* padding-left: 420px; */
 	padding-top: 50px;
 	padding-bottom: 40px;
+}
+.backend-title {
+	padding-top: 20px!important;
 }
 
 .sub-title front {
@@ -2875,7 +2901,7 @@ margin-bottom: 0;
 }
 
 .sub-title {
-	padding-top: 70px;
+	padding-top: 30px;
 	color:black
 }
 
@@ -2951,10 +2977,10 @@ margin-bottom: 0;
 margin-bottom: 10px;
 }
 
-.myflix-image {
+/* .myflix-image {
 width: 80%;
 height: 80%;
-}
+} */
 
 .project-details h1 {
 	text-align: center;
@@ -3007,6 +3033,9 @@ height: 80%;
 
 /* -----------MY CONTACT SECTION ----------*/
 
+#contact {
+	height: 100vh;
+}
 
 .contact-info-data {
 	color: black;
@@ -3014,10 +3043,13 @@ height: 80%;
 	font-size: 20px;
     margin-bottom: 40px;
 }
+.contact-info-data div span {
+	font-size: 25px;
+}
 
 #contact h2 {
 	margin: 40px auto;
-	padding-top: 83px;
+	padding-top: 145px;
 	}	
 
 .sub-title h4 {
@@ -3093,9 +3125,11 @@ height: 80%;
 
 		.icon.solid:before {
 			font-weight: 900;
+			font-size: 22px;
 		}
 
 		.icon.brands:before {
 			font-family: 'Font Awesome 5 Brands';
+			font-size: 35px;
 		}
 		
