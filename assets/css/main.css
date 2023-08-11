@@ -2832,9 +2832,9 @@ input, select, textarea {
 	height: 100vh;
 } */
 
-#about h2 {
-	margin-bottom: 20px;
-	}	
+/* #about h2 {
+	margin-bottom: 10px;
+	}	 */
 
 
 	
@@ -2851,7 +2851,7 @@ input, select, textarea {
 
 .techstack-text {
 color: black;
-padding: 0 7em;
+padding: 0 3em;
 margin-bottom: 0;
 }
 
@@ -2901,7 +2901,7 @@ margin-bottom: 0;
 }
 
 .sub-title {
-	padding-top: 70px;
+	padding-top: 30px;
 	color:black
 }
 
