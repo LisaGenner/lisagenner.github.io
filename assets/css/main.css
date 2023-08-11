@@ -395,10 +395,10 @@ input, select, textarea {
   #skillset h3 {
 	margin-bottom: 0;
   }
-  #skillset ul {
+  /* #skillset ul {
 	list-style-type: none;
-	padding: 0;
-  }
+	padding: 0; */
+  /* } */
 	/* slide-in is an element that slides in/out from the l/r side as the user scrolls up/down the page */
 .slide-in {
 	opacity: 0;
@@ -2828,6 +2828,14 @@ input, select, textarea {
 
 /* ---------- TECH STACK SECTION ---------- */		
 
+#tech-stack {
+	height: 100vh;
+}
+
+.text-stack {
+	text-align: center;
+}
+
 .techstack-text {
 color: black;
 padding: 0 7em;
@@ -2846,27 +2854,32 @@ margin-bottom: 0;
 }
 
 .front-end-menu {
-	width: 64px;
+	/* width: 64px; */
+	display: inline-block;
 	height: 64px;
-	background-size: contain;
-	float: left;
-	font-size: 0%;
-	width: 1170px;
-	padding-left: 320px;
+	/* background-size: contain; */
+	/* float: left; */
+	/* font-size: 0%; */
+	/* width: 1170px; */
+	/* padding-left: 320px; */
 	padding-top: 30px;
-	padding-bottom: 70px;
+	padding-bottom: 10px;
 }
 
 .back-end-menu {
-	width: 64px;
+	/* width: 64px; */
+	display: inline-block;
 	height: 64px;
-	background-size: contain;
-	float: left;
-	font-size: 0%;
-	width: 11200px;
-	padding-left: 420px;
+	/* background-size: contain;
+	float: left; */
+	/* font-size: 0%; */
+	/* width: 11200px; */
+	/* padding-left: 420px; */
 	padding-top: 50px;
 	padding-bottom: 40px;
+}
+.backend-title {
+	padding-top: 20px!important;
 }
 
 .sub-title front {
@@ -3007,6 +3020,9 @@ height: 80%;
 
 /* -----------MY CONTACT SECTION ----------*/
 
+#contact {
+	height: 100vh;
+}
 
 .contact-info-data {
 	color: black;
