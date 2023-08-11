@@ -2794,6 +2794,11 @@ input, select, textarea {
 .welcome {
 	color: whitesmoke;
 	margin-bottom: 50px;
+	margin-top: 50px;
+}
+
+#top {
+	height: 100vh;
 }
 
 .title {
@@ -2809,15 +2814,23 @@ input, select, textarea {
 		width: 500px; 
 		height: 200px;
 	}
-
-			
+		
 .about-me-text {
 	font-weight: 300;
 	color: #666;
 	line-height: 1.5em;
+}
 
-
-}		
+/* .web-dev-text {
+	font-weight: 300;
+	color: #666;
+	line-height: 1.5em;
+	padding-bottom: 50px;
+} */
+	
+/* #about {
+	height: 100vh;
+} */
 
 #about h2 {
 	margin-bottom: 20px;
@@ -2964,10 +2977,10 @@ margin-bottom: 0;
 margin-bottom: 10px;
 }
 
-.myflix-image {
+/* .myflix-image {
 width: 80%;
 height: 80%;
-}
+} */
 
 .project-details h1 {
 	text-align: center;
@@ -3030,10 +3043,13 @@ height: 80%;
 	font-size: 20px;
     margin-bottom: 40px;
 }
+.contact-info-data div span {
+	font-size: 25px;
+}
 
 #contact h2 {
 	margin: 40px auto;
-	padding-top: 83px;
+	padding-top: 145px;
 	}	
 
 .sub-title h4 {
@@ -3109,9 +3125,11 @@ height: 80%;
 
 		.icon.solid:before {
 			font-weight: 900;
+			font-size: 22px;
 		}
 
 		.icon.brands:before {
 			font-family: 'Font Awesome 5 Brands';
+			font-size: 35px;
 		}
 		
