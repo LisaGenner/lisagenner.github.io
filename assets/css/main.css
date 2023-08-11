@@ -207,7 +207,7 @@ input, select, textarea {
 	br.clear {
 		clear: both;
 	}
-/* ---------- TOOLBELT SECTION ---------- */
+/* ---------- TECH STACK SECTION ---------- */
 
 @-webkit-keyframes tools-scroll {
 	0% {
@@ -418,6 +418,8 @@ input, select, textarea {
 		-ms-transform: translateX(100vw);
 		transform: translateX(100vw);
 	  }
+
+
 /* Container */
 
 	.container {
@@ -1989,19 +1991,7 @@ input, select, textarea {
 			margin: 0 2em 2em 0;
 		}
 
-		.image.centered {
-			display: block;
-			margin: 0 0 2em 0;
-		}
 
-			.image.centered img {
-				margin: 0 auto;
-				width: auto;
-			}
-	
-			
-
-		
 
 /* List */
 
@@ -2023,27 +2013,7 @@ input, select, textarea {
 			padding-left: 0.25em;
 		}
 
-/* Icons */
 
-	ul.icons {
-		cursor: default;
-		list-style: none;
-		padding-left: 0;
-	}
-
-		ul.icons li {
-			display: inline-block;
-			padding-left: 0;
-		}
-
-		ul.icons a {
-			display: inline-block;
-			width: 2em;
-			height: 2em;
-			line-height: 2em;
-			text-align: center;
-			border: 0;
-		}
 
 /* Form */
 
@@ -2207,41 +2177,7 @@ input, select, textarea {
 				font-size: 1em;
 			}
 
-/* Icons */
 
-	.icon {
-		text-decoration: none;
-		text-decoration: none;
-	}
-
-		.icon:before {
-			-moz-osx-font-smoothing: grayscale;
-			-webkit-font-smoothing: antialiased;
-			display: inline-block;
-			font-style: normal;
-			font-variant: normal;
-			text-rendering: auto;
-			line-height: 1;
-			text-transform: none !important;
-			font-family: 'Font Awesome 5 Free';
-			font-weight: 400;
-		}
-
-		.icon:before {
-			line-height: inherit;
-		}
-
-		.icon > .label {
-			display: none;
-		}
-
-		.icon.solid:before {
-			font-weight: 900;
-		}
-
-		.icon.brands:before {
-			font-family: 'Font Awesome 5 Brands';
-		}
 
 /* Header */
 
@@ -2846,7 +2782,7 @@ input, select, textarea {
 		width: 100%;
 	
 	}
-
+/* -----------INTRO SECTION ----------------*/
 .home-bg {
 	background-color:#888
 }
@@ -2856,254 +2792,310 @@ input, select, textarea {
 }
 
 .welcome {
-	color: whitesmoke
+	color: whitesmoke;
+	margin-bottom: 50px;
 }
 
 .title {
-	color: whitesmoke
+	color: whitesmoke;
+	margin-bottom: 50px;
 }
-
-.contact-info {
-	color: black;
-	font-weight: 50px;
-
 	
-}
-
-	/* .single-project {
-		
-			} */
-	/* .project-image {
-		float: left;
-		width: 400px;
-	}
-	.project-details {
-		float: right;
-		width: calc (100%-400px);
-	} */
+/* ---------ABOUT ME SECTION --------------- */
 	
-	.project-details h1 {
-		text-align: center;
-		/* font-weight: bold; */
-		font-size:25px;
-	}
-
-	.project-details h2 {
-		font-size:25px;
-		float: left;
-		padding-left: 300px;
-	}
-
-	.tech-menu ul {
-		overflow: hidden;
-		list-style: none;
-		margin: 10px auto;
-		/* flex-direction: row;
-		padding-left: 600px; */
-	}
-
-
-	.tech-menu  {
-		width: 100%;
-		}
-
-	.tech-menu li {
-		width: 64px;
-		height: 64px;
-		background-size: contain;
-		float: left;
-		font-size: 0%;
-		width: 82px;	
-	}
-
-	.tech-menu ul {
-		overflow: hidden;
-		list-style: none;
-		margin: 10px auto;
-		/* flex-direction: row;
-		padding-left: 600px; */
-	}
-
-	.tech-stack li {
-		width: 64px;
-		height: 64px;
-		background-size: contain;
-		float: left;
-		justify-content: center;
-		font-size: 0%;
-		width: 100px;	
-		padding-top: 50px;
-	}
-
-	.front-end-menu {
-		width: 64px;
-		height: 64px;
-		background-size: contain;
-		float: left;
-		font-size: 0%;
-		width: 1170px;
-		padding-left: 320px;
-		padding-top: 30px;
-		padding-bottom: 70px;
-	}
-
-	.back-end-menu {
-		width: 64px;
-		height: 64px;
-		background-size: contain;
-		float: left;
-		font-size: 0%;
-		width: 11200px;
-		padding-left: 420px;
-		padding-top: 50px;
-		padding-bottom: 40px;
-	}
-
-	.sub-title front {
-		padding-top: 70px;
-		color: black
-	}
-
-	.sub-title {
-		padding-top: 70px;
-		color:black
-	
-	
-	}
-
-	/* .back-end-menu li {
-		width: 64px;
-		height: 64px;
-		background-size: contain;
-		float: left;
-		justify-content: center;
-		font-size: 0%;
-		width: 100px;	
-		padding-top: 50px;
-	} */
-
-	/* ul.skill-set li span {
+	.image-centered {
 		display: block;
-		font-family: 'Fira Sans', sans-serif;
-		font-size: 12px;
-		font-weight: 400;
-		line-height: 20px;
-		padding-top: 120px;
-		text-align: center;
-		width: 100%; */
-		
+		margin: 0 auto 2em auto;
+		width: 500px; 
+		height: 200px;
+	}
+
+			
+.about-me-text {
+	font-weight: 300;
+	color: #666;
+	line-height: 1.5em;
+
+
+}		
+
+#about h2 {
+	margin-bottom: 20px;
+	}	
+
+
+	
+
+/* ---------- TECH STACK SECTION ---------- */		
+
+.techstack-text {
+color: black;
+padding: 0 7em;
+margin-bottom: 0;
+}
+
+.tech-stack li {
+	width: 64px;
+	height: 64px;
+	background-size: contain;
+	float: left;
+	justify-content: center;
+	font-size: 0%;
+	width: 100px;	
+	padding-top: 50px;
+}
+
+.front-end-menu {
+	width: 64px;
+	height: 64px;
+	background-size: contain;
+	float: left;
+	font-size: 0%;
+	width: 1170px;
+	padding-left: 320px;
+	padding-top: 30px;
+	padding-bottom: 70px;
+}
+
+.back-end-menu {
+	width: 64px;
+	height: 64px;
+	background-size: contain;
+	float: left;
+	font-size: 0%;
+	width: 11200px;
+	padding-left: 420px;
+	padding-top: 50px;
+	padding-bottom: 40px;
+}
+
+.sub-title front {
+	padding-top: 70px;
+	color: black
+}
+
+.sub-title {
+	padding-top: 70px;
+	color:black
+}
+
+.sub-heading {
+	color: black;
+	margin: 0 auto 20px auto;
+}
+
+.html5 {
+	background: url(../../images/html5.png) 0 0 no-repeat;
+}
+.css {
+	background: url(../../images/css3.png) 0 0 no-repeat;
+}
+.javascript {
+	background: url(../../images/javascript.png) 0 0 no-repeat;
+}
+.jquery {
+	background: url(../../images/jquery.png) 0 0 no-repeat;
+}
+.aws {
+	background: url(../../images/aws.png) 0 0 no-repeat;
+}
+.heroku {
+	background: url(../../images/heroku.png) 0 0 no-repeat;
+}
+.firebase {
+	background: url(../../images/firebase.png) 0 0 no-repeat;
+}
+.react {
+	background: url(../../images/react.png) 0 0 no-repeat;
+}
+.mongodb {
+	background: url(../../images/mongodb) 0 0 no-repeat;
+}
+.angular {
+	background: url(../../images/angular.png) 0 0 no-repeat;
+}
+.bootstrap {
+	background: url(../../images/bootstrap.png) 0 0 no-repeat;
+}
+.gitlab {
+	background: url(../../images/gitlab.png) 0 0 no-repeat;
+}	
+.typescript {
+	background: url(../../images/typescript.png) 0 0 no-repeat;
+}
+
+.firebase {
+	background: url(../../images/firebase.png) 0 0 no-repeat;
+}
+
+.nodejs {
+	background: url(../../images/nodejs.png) 0 0 no-repeat;
+}
+
+.mySQL {
+	background: url(../../images/mysql.png) 0 0 no-repeat;
+}
+
+.redux {
+	background: url(../../images/redux.png) 0 0 no-repeat;
+}
+
+.mongodb {
+	background: url(../../images/mongodb.png) 0 0 no-repeat;
+}
+
+
+/* -----------MY PROJECTS SECTION ----------*/
+
+.project-container h3 {
+margin-bottom: 10px;
+}
+
+.myflix-image {
+width: 80%;
+height: 80%;
+}
+
+.project-details h1 {
+	text-align: center;
+	/* font-weight: bold; */
+	font-size:25px;
+}
+
+.project-details h2 {
+	font-size:25px;
+	float: left;
+	padding-left: 300px;
+}
+
+.project-details h4 {
+	margin: 20px 0
+}
+
+.tech-menu ul {
+	overflow: hidden;
+	list-style: none;
+	margin: 10px auto;
+	/* flex-direction: row;
+	padding-left: 600px; */
+}
+
+.tech-menu  {
+	width: 100%;
+	}
+
+.tech-menu li {
+	width: 64px;
+	height: 64px;
+	background-size: contain;
+	float: left;
+	font-size: 0%;
+	width: 82px;	
+}
+
 .chat-app-menu {
 	width: 301px;
 }
-
+	
 .myflix-app-menu {
 	width: 450px;
 }
-
+	
 .pokedex-app-menu {
 	width: 300px;
-	}
+}
 
+/* -----------MY CONTACT SECTION ----------*/
+
+
+.contact-info-data {
+	color: black;
+	font-weight: 300;
+	font-size: 20px;
+    margin-bottom: 40px;
+}
+
+#contact h2 {
+	margin: 40px auto;
+	padding-top: 83px;
+	}	
 
 .sub-title h4 {
 	font-weight: bold;
 }
-	.html5 {
-		background: url(../../images/html5.png) 0 0 no-repeat;
-	}
-	.css {
-		background: url(../../images/css3.png) 0 0 no-repeat;
-	}
-	.javascript {
-		background: url(../../images/javascript.png) 0 0 no-repeat;
-	}
-	.jquery {
-		background: url(../../images/jquery.png) 0 0 no-repeat;
-	}
-	.aws {
-		background: url(../../images/aws.png) 0 0 no-repeat;
-	}
-	.heroku {
-		background: url(../../images/heroku.png) 0 0 no-repeat;
-	}
-	.firebase {
-		background: url(../../images/firebase.png) 0 0 no-repeat;
-	}
-	.react {
-		background: url(../../images/react.png) 0 0 no-repeat;
-	}
-	.mongodb {
-		background: url(../../images/mongodb) 0 0 no-repeat;
-	}
-	.angular {
-		background: url(../../images/angular.png) 0 0 no-repeat;
-	}
-	.bootstrap {
-		background: url(../../images/bootstrap.png) 0 0 no-repeat;
-	}
-	.gitlab {
-		background: url(../../images/gitlab.png) 0 0 no-repeat;
-	}	
-	.typescript {
-		background: url(../../images/typescript.png) 0 0 no-repeat;
-	}
 
-	.firebase {
-		background: url(../../images/firebase.png) 0 0 no-repeat;
-	}
+.project-container {
+	font-weight: bold;
+}
 
-	.nodejs {
-		background: url(../../images/nodejs.png) 0 0 no-repeat;
-	}
+.contact-info h1{
+	text-align: center;
+}
 
-	.mySQL {
-		background: url(../../images/mysql.png) 0 0 no-repeat;
-	}
 
-	.redux {
-		background: url(../../images/redux.png) 0 0 no-repeat;
-	}
+.contact-info {
+	color: black;
+	font-weight: 100;
+	font-size: 29px;
+    margin-bottom: 40px;
+}
 
-	.mongodb {
-		background: url(../../images/mongodb.png) 0 0 no-repeat;
-	}
+	/* ---------------Contact Icons----------------------*/
 
-	.project-container {
-		font-weight: bold;
-		
-	}
-	.contact-info h1{
+.icons {
+	cursor: default;
+	list-style: none;
+	padding-left: 0;
+	padding-bottom: 60px;
+}
+
+	ul.icons li {
+		display: inline-block;
+		padding: 1em 0;
+		}
+
+	ul.icons a {
+		display: inline-block;
+		width: 2em;
+		height: 2em;
+		line-height: 2em;
 		text-align: center;
-	}
-	.contact-info h2 {
-		font-weight: bold;
+		border: 0;
+		padding-top: 10px;
+
 	}
 	
-	.icons ul{
-		text-size-adjust: 50px;
-	
-	} 
-	.tools-cards_col {
-		margin: var(--spacing_s);
-		padding: var(--spacing_s);
-		max-width: 300px;
-	  
-		border: 1px solid var(--primary-color);
-		border-radius: 20px;
-		-webkit-box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.34);
-		box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.34);
-	  }
-	  #tools-cards h4 {
-		margin: var(--spacing_s);
-	  }
-	  @media all and (max-width: 660px) {
-		.tools-cards_col {
-		  max-width: 100%;
-		  width: 100%;
-		  margin: 5px;
+	.icon {
+		text-decoration: none;
+		text-decoration: none;
+	}
+
+		.icon:before {
+			-moz-osx-font-smoothing: grayscale;
+			-webkit-font-smoothing: antialiased;
+			display: inline-block;
+			font-style: normal;
+			font-variant: normal;
+			text-rendering: auto;
+			line-height: 1;
+			text-transform: none !important;
+			font-family: 'Font Awesome 5 Free';
+			font-weight: 400;
 		}
-		#tools-cards h4 {
-		  margin-top: 0;
+
+		.icon:before {
+			line-height: inherit;
 		}
-	  }
-	  
+
+		.icon > .label {
+			display: none;
+		}
+
+		.icon.solid:before {
+			font-weight: 900;
+		}
+
+		.icon.brands:before {
+			font-family: 'Font Awesome 5 Brands';
+		}
+		
