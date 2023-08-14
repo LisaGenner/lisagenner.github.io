@@ -2819,6 +2819,7 @@ input, select, textarea {
 	font-weight: 300;
 	color: #666;
 	line-height: 1.5em;
+	
 }
 
 /* .web-dev-text {
@@ -2982,10 +2983,13 @@ width: 80%;
 height: 80%;
 } */
 
-.project-details h1 {
-	text-align: center;
-	/* font-weight: bold; */
-	font-size:25px;
+
+.project-info-text {
+	font-weight: 300;
+	color: #666;
+	line-height: 1.5em;
+	padding: 0 3em;
+
 }
 
 .project-details h2 {
