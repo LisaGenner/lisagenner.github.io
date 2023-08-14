@@ -2778,10 +2778,7 @@ input, select, textarea {
 					margin-top: 0;
 				}
 	}
-	.project-container {
-		width: 100%;
-	
-	}
+
 /* -----------INTRO SECTION ----------------*/
 .home-bg {
 	background-color:#888
@@ -2829,9 +2826,9 @@ input, select, textarea {
 	padding-bottom: 50px;
 } */
 	
-/* #about {
+#about {
 	height: 100vh;
-} */
+}
 
 /* #about h2 {
 	margin-bottom: 10px;
@@ -2842,9 +2839,9 @@ input, select, textarea {
 
 /* ---------- TECH STACK SECTION ---------- */		
 
-#tech-stack {
+/* #tech-stack {
 	height: 100vh;
-}
+} */
 
 .text-stack {
 	text-align: center;
@@ -2852,7 +2849,7 @@ input, select, textarea {
 
 .techstack-text {
 color: black;
-padding: 0 3em;
+padding: 0 7em;
 margin-bottom: 0;
 }
 
@@ -2983,12 +2980,19 @@ width: 80%;
 height: 80%;
 } */
 
+.project-container {
+	width: 100%;
+}
+
+/* .project-container {
+	font-weight: bold;
+} */
 
 .project-info-text {
 	font-weight: 300;
 	color: #666;
 	line-height: 1.5em;
-	padding: 0 3em;
+	padding: 0 7em;
 
 }
 
@@ -3057,10 +3061,6 @@ height: 80%;
 	}	
 
 .sub-title h4 {
-	font-weight: bold;
-}
-
-.project-container {
 	font-weight: bold;
 }
 
