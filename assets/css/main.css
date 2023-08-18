@@ -351,9 +351,9 @@ input, select, textarea {
 	  width: 100%;
 	  margin: 5px;
 	}
-	#tools-cards h4 {
+	/* #tools-cards h4 {
 	  margin-top: 0;
-	}
+	} */
   }
   
   .tech-container {
@@ -1954,17 +1954,17 @@ input, select, textarea {
 
 /* Image */
 
-	.image {
+	/* .image {
 		display: inline-block;
 		border: 0;
-	}
+	} */
 
-		.image img {
+		/* .image img {
 			display: block;
 			width: 100%;
-		}
+		} */
 
-		.image.avatar48 {
+		/* .image.avatar48 {
 			width: 48px;
 			height: 48px;
 			background: #f00;
@@ -1973,9 +1973,9 @@ input, select, textarea {
 			.image.avatar48 img {
 				width: 48px;
 				height: 48px;
-			}
+			} */
 
-		.image.fit {
+		/* .image.fit {
 			display: block;
 			width: 100%;
 		}
@@ -1989,7 +1989,7 @@ input, select, textarea {
 		.image.left {
 			float: left;
 			margin: 0 2em 2em 0;
-		}
+		} */
 
 
 
@@ -2794,9 +2794,9 @@ input, select, textarea {
 	margin-top: 50px;
 }
 
-#top {
+/* #top {
 	height: 100vh;
-}
+} */
 
 .title {
 	color: whitesmoke;
@@ -2826,9 +2826,9 @@ input, select, textarea {
 	padding-bottom: 50px;
 } */
 	
-#about {
+/* #about {
 	height: 100vh;
-}
+} */
 
 /* #about h2 {
 	margin-bottom: 10px;
@@ -2975,10 +2975,12 @@ margin-bottom: 0;
 margin-bottom: 10px;
 }
 
-/* .myflix-image {
-width: 80%;
-height: 80%;
-} */
+.image-centered-projects {
+	display: block;
+	margin: 0 auto 2em auto;
+	width: 80%;  
+	height: 80%;
+	}
 
 .project-container {
 	width: 100%;
@@ -3058,6 +3060,11 @@ height: 80%;
 #contact h2 {
 	margin: 40px auto;
 	padding-top: 145px;
+	}	
+
+.contact-info {
+	margin: 40px auto;
+	padding-top: 20px;
 	}	
 
 .sub-title h4 {
