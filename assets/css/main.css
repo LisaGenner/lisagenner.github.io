@@ -2986,16 +2986,11 @@ margin-bottom: 10px;
 	width: 100%;
 }
 
-/* .project-container {
-	font-weight: bold;
-} */
-
 .project-info-text {
 	font-weight: 300;
 	color: #666;
 	line-height: 1.5em;
 	padding: 0 7em;
-
 }
 
 .project-details h2 {
@@ -3047,6 +3042,13 @@ margin-bottom: 10px;
 	height: 100vh;
 }
 
+.contact-info-text {
+	font-weight: 300;
+	color: black;
+	line-height: 1.5em;
+	padding: 0 7em;
+}
+
 .contact-info-data {
 	color: black;
 	font-weight: 300;
@@ -3063,8 +3065,8 @@ margin-bottom: 10px;
 	}	
 
 .contact-info {
+	font-weight: 300;
 	margin: 40px auto;
-	padding-top: 20px;
 	}	
 
 .sub-title h4 {
