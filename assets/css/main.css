@@ -2865,27 +2865,15 @@ margin-bottom: 0;
 }
 
 .front-end-menu {
-	/* width: 64px; */
 	display: inline-block;
 	height: 64px;
-	/* background-size: contain; */
-	/* float: left; */
-	/* font-size: 0%; */
-	/* width: 1170px; */
-	/* padding-left: 320px; */
 	padding-top: 30px;
 	padding-bottom: 10px;
 }
 
 .back-end-menu {
-	/* width: 64px; */
 	display: inline-block;
 	height: 64px;
-	/* background-size: contain;
-	float: left; */
-	/* font-size: 0%; */
-	/* width: 11200px; */
-	/* padding-left: 420px; */
 	padding-top: 50px;
 	padding-bottom: 40px;
 }
